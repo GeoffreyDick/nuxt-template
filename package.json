@@ -9,9 +9,9 @@
     "test:ui": "vitest --ui"
   },
   "devDependencies": {
-    "@nuxt/test-utils": "^3.0.0-rc.6",
+    "@nuxt/test-utils": "^3.0.0-rc.7",
     "@vitest/ui": "^0.21.1",
-    "nuxt": "3.0.0-rc.6",
+    "nuxt": "^3.0.0-rc.7",
     "playwright": "^1.24.2",
     "vitest": "^0.21.1"
   }
