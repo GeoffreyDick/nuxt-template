@@ -4,9 +4,8 @@ import { setup, $fetch } from "@nuxt/test-utils";
 
 describe("pages", async () => {
   await setup({
-    rootDir: fileURLToPath(new URL("..", import.meta.url)),
     server: true,
-    browser: true,
+    browser: false,
   });
 
   it("render index", async () => {
