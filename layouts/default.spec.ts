@@ -1,16 +1,10 @@
-import { fileURLToPath } from "node:url";
-import { describe, expect, it } from "vitest";
-import { setup, $fetch } from "@nuxt/test-utils";
+import { describe, it } from "vitest";
+import { render } from '@testing-library/vue'
+import Default from "./default.vue";
 
-describe("pages", async () => {
-  await setup({
-    rootDir: fileURLToPath(new URL("@", import.meta.url)),
-    server: true,
-    browser: true,
-  });
-
-  it("render index", async () => {
-    const html = await $fetch("/");
-    expect(html).toContain("Hello world");
+describe("default", async () => {
+  it("renders", async () => {
+    const { getByText } = render(Default)
+    getByText('Hello world')
   });
 });

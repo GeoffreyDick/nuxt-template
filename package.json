@@ -10,7 +10,10 @@
   },
   "devDependencies": {
     "@nuxt/test-utils": "^3.0.0-rc.7",
+    "@testing-library/vue": "^6.6.1",
+    "@vitejs/plugin-vue": "^3.0.1",
     "@vitest/ui": "^0.21.1",
+    "happy-dom": "^6.0.4",
     "nuxt": "^3.0.0-rc.7",
     "playwright": "^1.24.2",
     "vitest": "^0.21.1"
