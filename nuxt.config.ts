@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     shim: false,
   },
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss'
   ],
   content: {
     // https://content.nuxtjs.org/api/configuration
