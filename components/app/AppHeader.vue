@@ -1,7 +1,7 @@
 <template>
     <header class="p-8 bg-black text-[#fafafa]">
         <div class="container mx-auto">
-            <div class="flex space-between">
+            <div class="flex justify-between items-center">
                 <span>Insert header</span>
                 <button
                     @click="toggleDark()"
