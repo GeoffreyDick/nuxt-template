@@ -1,3 +1,16 @@
+---
+title: 'Example Page Title'
+description: 'What a lovely example page.'
+head:
+  meta:
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Geoff Dick'
+    - name: 'copyright'
+      content: 'Geoff Dick'
+---
+
 # Example text
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. 
