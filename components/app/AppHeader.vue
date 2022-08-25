@@ -1,5 +1,5 @@
 <template>
-    <header class="p-8 bg-black text-[#fafafa]">
+    <header class="p-8 bg-transparent dark:text-gray-100 border-b-2 border-black/5 dark:border-white/5">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
                 <span>Insert header</span>
