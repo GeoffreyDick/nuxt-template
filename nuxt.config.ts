@@ -42,17 +42,28 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'vue-plausible'
   ],
+  // https://content.nuxtjs.org/api/configuration
   content: {
-    // https://content.nuxtjs.org/api/configuration
   },
+  // https://tailwindcss.nuxtjs.org/getting-started/options
   tailwindcss: {
-    // https://tailwindcss.nuxtjs.org/getting-started/options
     viewer: false,
   },
+  // https://plausible.io/docs/proxy/introduction
+  plausible: {
+    domain: process.env.PLAUSIBLE_DOMAIN,
+    
+    // Uncomment the line below and set env variable to enable proxy (https://plausible.io/docs/proxy/introduction)
+    // apiHost: process.env.PLAUSIBLE_API_HOST
+    
+    // Uncomment the line below to enable outbound tracking (https://plausible.io/docs/outbound-link-click-tracking)
+    // enableAutoOutboundTracking: true,
+  },
+  // https://vitejs.dev/config/server-options.html
   vite: {
-    // https://vitejs.dev/config/server-options.html
     server: {
       port: 443,
       https: true,

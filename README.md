@@ -40,3 +40,9 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+## Plausible
+
+Set `PLAUSIBLE_DOMAIN` and if using a proxy `PLAUSIBLE_API_HOST`.
+
+After deploying, see [how to exclude your browsers](https://plausible.io/docs/excluding-localstorage)
