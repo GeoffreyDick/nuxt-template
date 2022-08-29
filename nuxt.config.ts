@@ -12,6 +12,10 @@ export default defineNuxtConfig({
   ],
   // https://content.nuxtjs.org/api/configuration
   content: {
+    // navigation: {
+    //   // TODO: Figure out why navigation in frontmatter block is not working natively
+    //   // fields: ['navigation']
+    // }
   },
   // https://tailwindcss.nuxtjs.org/getting-started/options
   tailwindcss: {
